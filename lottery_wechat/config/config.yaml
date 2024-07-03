@@ -1,0 +1,11 @@
+app:
+  app_name: "lottery_wechat"
+  port: 8080
+  run_mod: release
+  version: "v0.0.1"
+
+log:
+  level: debug
+  log_pattern: "file"
+  log_path: "./log/server.log"
+  save_days: 3
